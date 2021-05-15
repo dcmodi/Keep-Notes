@@ -32,6 +32,8 @@ const CreateNote = () => {
       title: title,
       note: note,
     };
+    setTitle("")
+    setNote("")
     createNotes((prevData) => {
       return [...prevData, n];
     });
