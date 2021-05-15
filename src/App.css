@@ -1,0 +1,54 @@
+.header {
+  background: rgb(240, 240, 75);
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+.input {
+  outline: none;
+  background: none;
+  word-wrap: break-word;
+}
+.note-container {
+  width: 300px;
+  border-radius: 25px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+textarea {
+  resize: none;
+}
+.plus-button {
+  color: white;
+}
+.plus-container {
+  position: absolute;
+  top: 49%;
+  left: 55%;
+  border-radius: 50px;
+  background: rgb(240, 240, 75);
+  box-shadow: 15px 15px 50px #bebebe, -15px -15px 50px #ffffff;
+}
+.plus-container :hover {
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: -17px -17px 34px #bebebe, 17px 17px 34px #ffffff;
+}
+.plus-button:hover {
+  color: rgb(240, 240, 75);
+}
+
+.notes {
+  display: flex;
+  justify-content: space-between;
+}
+.note {
+  border-radius: 25px;
+  background: linear-gradient(45deg, #cacaca, #f0f0f0);
+  box-shadow: 17px -17px 34px #bebebe, -17px 17px 34px #ffffff;
+  width: 300px;
+  word-wrap: break-word;
+}
+.delete{
+  width : 40px;
+}
